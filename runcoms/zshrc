@@ -62,7 +62,7 @@ function weather {
 
 # eclim
 function eclim {
-  nohup eclimd >/tmp/eclimd.log 2>&1 &
+  [[ -z "$(pgrep eclimd)" ]] && nohup eclimd >/tmp/eclimd.log 2>&1 &
 }
 
 [[ -s "$HOME/.zshrc.`uname`" ]] && source "$HOME/.zshrc.`uname`"
