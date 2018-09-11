@@ -65,5 +65,3 @@ function weather {
 [[ -s "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-fpath=(/usr/local/share/zsh-completions $fpath)
