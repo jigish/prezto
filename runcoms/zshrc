@@ -17,10 +17,10 @@ export EDITOR=nvim
 function ovim {
   /usr/local/bin/vim
 }
-alias vim='edit'
-alias vi='edit'
-alias v='edit'
-alias e='edit'
+alias vim='nvim'
+alias vi='nvim'
+alias v='nvim'
+alias e='nvim'
 alias l='ls -alh'
 alias la='ls -alh'
 alias lt='ls -alrth'
@@ -29,7 +29,7 @@ alias lt='ls -alrth'
 # i fucking hate godep
 export GOPATH=$HOME/code/go
 export ECLIPSE_HOME=$HOME/eclipse/photon/Eclipse.app/Contents/Eclipse
-export PATH=$HOME/bin:${PATH}:/usr/local/go/bin:${SCALA_HOME}/bin:${GOPATH}/bin:/usr/local/sbin:$HOME/.cargo/bin:${ECLIPSE_HOME}
+export PATH=$HOME/bin:/usr/local/Cellar/openssh/7.9p1/bin:${PATH}:/usr/local/go/bin:${SCALA_HOME}/bin:${GOPATH}/bin:/usr/local/sbin:$HOME/.cargo/bin:${ECLIPSE_HOME}
 # proper ctags man
 export MANPATH=$HOME/bin/ctags-root/share/man:$MANPATH
 # Expected working dir for code
