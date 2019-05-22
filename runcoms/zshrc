@@ -70,3 +70,8 @@ function eclim {
 [[ -s "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+setopt prompt_sp
+
+# added by travis gem
+[ -f /Users/jigishp/.travis/travis.sh ] && source /Users/jigishp/.travis/travis.sh
