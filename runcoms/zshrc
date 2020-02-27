@@ -13,7 +13,8 @@ fi
 # Customize to your needs...
 
 # editor stuff
-export EDITOR=nvim
+export VISUAL=nvim
+export EDITOR=$VISUAL
 function ovim {
   /usr/local/bin/vim
 }
